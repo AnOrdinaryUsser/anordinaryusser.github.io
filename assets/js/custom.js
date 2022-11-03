@@ -71,10 +71,12 @@
 	        var target = this.hash,
 	        menu = target;
 	       	var target = $(this.hash);
+			console.log(target);
 	        $('html, body').stop().animate({
 	            scrollTop: (target.offset().top) + 1
 	        }, 500, 'swing', function () {
-	            window.location.hash = target;
+	            window.location.hash = "#";
+				console.log(window.location.hash);
 	            $(document).on("scroll", onScroll);
 	        });
 	    });
