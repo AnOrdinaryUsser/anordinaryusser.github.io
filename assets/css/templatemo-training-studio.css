@@ -489,7 +489,7 @@ header
   }
   .header-area .main-nav .logo {
     color: #1e1e1e;
-    font-size: 20px;
+    font-size: 15px;
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
@@ -649,26 +649,26 @@ banner
 
 .main-banner .caption h6 {
   margin-top: 0px;
-  font-size: 18px;
+  font-size: 26px;
   text-transform: uppercase;
   font-weight: 800;
   color: #fff;
   letter-spacing: 0.5px;
 }
 
-.main-banner .caption h2 {
+.main-banner .caption h4 {
   margin-top: 30px;
   margin-bottom: 25px;
-  font-size: 84px;
+  font-size: 60px;
   text-transform: uppercase;
   font-weight: 800;
   color: #fff;
   letter-spacing: 1px;
 }
 
-.main-banner .caption h2 em {
+.main-banner .caption h6 em {
   font-style: normal;
-  color: #ed563b;
+  color: #ed563b; 
   font-weight: 900;
 }
 
@@ -1232,8 +1232,63 @@ responsive
     height: 84px;
   }
 
+  .main-banner .caption h4 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
   .main-banner .caption h2 {
-    font-size: 44px;
+    font-size: 30px;
+  }
+  #features {
+    margin-bottom: 110px;
+  }
+  #features .feature-item {
+    margin-bottom: 30px;
+  }
+  #our-classes .tabs-content {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .trainer-item {
+    margin-bottom: 30px;
+  }
+  #contact-us #map {
+    margin-bottom: -7px;
+  }
+  #contact-us .contact-form {
+    padding: 30px;
+  }
+  #contact-us .contact-form #contact {
+    padding: 30px;
+  }
+
+}
+
+@media (max-width: 740px) {
+
+  .responsive {
+    width: 84px;
+    height: 84px;
+  }
+
+  .main-banner .caption h4 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
+  .main-banner .caption h2 {
+    font-size: 30px;
   }
   #features {
     margin-bottom: 110px;
